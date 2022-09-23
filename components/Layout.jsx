@@ -3,6 +3,8 @@ import Head from 'next/head';
 
 import Navbar from './Navbar';
 import Footer from './Footer';
+import { Facebook1 } from './Facebook1';
+
 
 const Layout = ({ children }) => {
   return (
@@ -24,6 +26,8 @@ const Layout = ({ children }) => {
         {children}
       </main>
       <footer>
+        <Facebook1/>
+
         <Footer />
       </footer>
     </div>
