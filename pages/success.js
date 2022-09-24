@@ -25,16 +25,17 @@ const Success = () => {
         <h2>Thank you for your order!</h2>
         <p className="email-msg">Check your email inbox for the receipt.</p>
         <p className="description">
-          If you have any questions, please email
-          <a className="email" href="mailto:order@example.com">
-            order@example.com
+          กดปุ่มด้านล่างเพื่อส่งที่อยู่ หรือ กดไอคอน facebook messenger ได้เลยครับ
+          <a className="email" href="mailto:ronnakritnook1@gmail.com">
+          ronnakritnook1@gmail.com
           </a>
         </p>
-        <Link href="/">
+        <Link href="https://line.me/ti/p/5N4dECXfqL">
           <button type="button" width="300px" className="btn">
-            Continue Shopping
+             ส่งที่อยู่ผู้รับ
           </button>
         </Link>
+       
       </div>
     </div>
   )
