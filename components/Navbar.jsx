@@ -15,7 +15,7 @@ const Navbar = () => {
            {/* <Image src={logoimg} alt='/' /> */}
 
       <p className="logo">
-        <Link href="/">Mastery Solution</Link>
+        <Link href="/">Mrs 12 Store</Link>
       </p>
 
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
